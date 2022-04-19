@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>home</title>
+    <title>templates home</title>
 </head>
 <body>
-<h1>welcome to test view</h1>
+
+<h1>Enter your text below</h1>
+<form action="/removepunc" method="get">
+  <textarea name="text" style="width: 1513px; height: 72px;"></textarea><br>
+    <input type="checkbox" name="removepunc">remove punchualyzation<br>
+    <input type="checkbox" name="removespace">Remove extra space<br>
+  <button type="submit" name>submit</button>
+</form>
 
 </body>
 </html>
